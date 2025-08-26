@@ -6,4 +6,4 @@ elif sexo.upper() == "F":
     peso_ideal = (62.1 * altura) - 44.7
 else:
     peso_ideal = None
-print(peso_ideal)
+print(f"{peso_ideal:.2f}")
