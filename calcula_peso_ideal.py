@@ -5,5 +5,5 @@ if sexo.upper() == "M":
 elif sexo.upper() == "F":
     peso_ideal = (62.1 * altura) - 44.7
 else:
-    peso_ideal = 0
+    peso_ideal = None
 print(peso_ideal)
